@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.3 (Oracle Corporation Java 17.0.6)
+[debug] Load.defaultLoad until apply took 185.0821ms
+[debug]           Load.loadUnit: plugins took 191.9046ms
+[debug]           Load.loadUnit: defsScala took 0.5192ms
+[debug] [Loading] Scanning directory C:\Users\NETHMI LIYANAGE\Documents\Labsheet6\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\NETHMI LIYANAGE\Documents\Labsheet6\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 42.3686 ms
+[debug]               Load.resolveProject(labsheet6-build) took 123.1224ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id labsheet6-build, base: C:\Users\NETHMI LIYANAGE\Documents\Labsheet6\project, plugins: List(<none>))) took 202.3995ms
+[debug] [Loading] Done in C:\Users\NETHMI LIYANAGE\Documents\Labsheet6\project, returning: (labsheet6-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 262.3466ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.807ms
+[debug]         Load.loadUnit(file:/C:/Users/NETHMI%20LIYANAGE/Documents/Labsheet6/project/, ...) took 475.8078ms
+[debug]       Load.apply: load took 831.7784ms
+[debug]       Load.apply: resolveProjects took 14.3724ms
+[debug]       Load.apply: finalTransforms took 112.5805ms
+[debug]       Load.apply: config.delegates took 12.3853ms
+[debug]       Load.apply: Def.make(settings)... took 674.4446ms
+[debug]       Load.apply: structureIndex took 188.8876ms
+[debug]       Load.apply: mkStreams took 2.8161ms
+[info] loading project definition from C:\Users\NETHMI LIYANAGE\Documents\Labsheet6\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3195.8982ms
+[debug]     Load.loadUnit: defsScala took 0.0038ms
+[debug] [Loading] Scanning directory C:\Users\NETHMI LIYANAGE\Documents\Labsheet6
+[debug]       Load.loadUnit: mkEval took 5.5642ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2023 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 4.5475ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\NETHMI LIYANAGE\Documents\Labsheet6, plugins: List(<none>))) took 10.2993ms
+[debug] [Loading] Done in C:\Users\NETHMI LIYANAGE\Documents\Labsheet6, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 231.4332ms
+[debug]     Load.loadUnit: cleanEvalClasses took 24.2862ms
+[debug]   Load.loadUnit(file:/C:/Users/NETHMI%20LIYANAGE/Documents/Labsheet6/, ...) took 3454.0098ms
+[debug] Load.apply: load took 3494.485ms
+[debug] Load.apply: resolveProjects took 0.1168ms
+[debug] Load.apply: finalTransforms took 20.5556ms
+[debug] Load.apply: config.delegates took 0.6444ms
+[debug] Load.apply: Def.make(settings)... took 89.5093ms
+[debug] Load.apply: structureIndex took 44.8844ms
+[debug] Load.apply: mkStreams took 0.0023ms
+[info] set current project to Labsheet6 (in build file:/C:/Users/NETHMI%20LIYANAGE/Documents/Labsheet6/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-43b318dce1aa093147b6
+[debug] Writing bsp connection file
+[info] started sbt server
